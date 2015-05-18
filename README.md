@@ -20,12 +20,16 @@ One thing I love about Arduino is that it has evolved to become a whole ecosyste
 
 [ecosystem]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/Arduino-Boards.jpg "Arduino Ecosystem"
 
-Anatomy Lesson- get a picture of the Arduino
-- USB
-- Power jack
+##Anatomy Lesson
+Here's a picture of the most common Arduino board, the Uno.  Note the location of the following:
+- USB port
+- Power connection
 - Power pins
-- Analog in pins
-- Digital I/O pins
+- Analog input pins
+- Digital input and output pins
+![alt text][unoAnatomy]
+[unoAnatomy]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/UnoMarkup.jpg "Anatomy of the Arduino Uno R3"
+
 Discussion of Digital vs. Analog
 - Digital = on/off
 - Analog = a range of values
@@ -44,7 +48,7 @@ Lets make it do something!
 - Use an analog input (pot) to control some aspect of code
 
 ## Links
-[Official Arduino website.][1]
+[Official Arduino website.][1] 
 [Walkthrough tutorials][2] of the basic example sketches included in the Arduino IDE.
 [Arduino Playground][3], a wiki of user-contributed tutorials, projects, and how-tos!
 
