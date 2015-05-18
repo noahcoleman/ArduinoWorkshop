@@ -48,9 +48,12 @@ Lets make it do something!
 - Use an analog input (pot) to control some aspect of code
 
 ## Links
-[Official Arduino website.][1] 
+[Official Arduino website.][1]
+
 [Walkthrough tutorials][2] of the basic example sketches included in the Arduino IDE.
+
 [Arduino Playground][3], a wiki of user-contributed tutorials, projects, and how-tos!
+
 
 [1]: http://www.arduino.cc/
 [2]: http://www.arduino.cc/en/Tutorial/HomePage
