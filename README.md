@@ -16,7 +16,9 @@ Arduino uses both open-source software and open-source hardware.  Anyone can loo
 *Arduino* refers to both the board as well as the development environment where the code is written.
 
 One thing I love about Arduino is that it has evolved to become a whole ecosystem with niche hardware for specific needs such as wearables, very small form factors, projects with a larger number of inputs/outputs, kids, DIYers, wireless communication, etc.
+![alt text][ecosystem]
 
+[ecosystem]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/Arduino-Boards.jpg "Arduino Ecosystem"
 
 Anatomy Lesson- get a picture of the Arduino
 - USB
