@@ -3,13 +3,21 @@ Sketches and info for teaching Arduino
 
 ## What is Arduino?
 From the [Arduino Website:](http://www.arduino.cc/en/Guide/Introduction)
-> Arduino is a tool for making computers that can sense and control more of the physical world than your desktop computer. It's an open-source physical computing platform based on a simple microcontroller board, and a development environment for writing software for the board.
+> Arduino is a tool for making computers that can sense and control more of the physical world than your desktop computer. 
 
-**Microcontroller-** a programmable computer that can run one program at a time.  Especially good at *physical computing,* or interfacing software with the real world for both input and output.
-Open Source- hardware and software are “open.” Anyone can use them and/or modify them and then recontribute to the community
-Community (kind of goes w/ open source)
-could talk about all different flavors of Arduino here—lilypad, mini, mega, yun, etc...
-Programming Language- Refers to the code you upload, and the program used to write that code (IDE)
+Arduino is a great way to integrate physical inputs and outputs into your code-based project.  It can be used both as a standalone device and in conjunction with more powerful computers, like your laptop.
+
+> It's an open-source physical computing platform
+
+Arduino uses both open-source software and open-source hardware.  Anyone can look up the specs and build an Arduino microcontroller from its discreet parts.  Additionally, any user can see the all the specs of the Arduino software (or hardware) and contribute improvements or innovations.  As a result, the community is very open, helpful, and enthusiastic!
+
+> based on a simple microcontroller board, and a development environment for writing software for the board.
+
+*Arduino* refers to both the board as well as the development environment where the code is written.
+
+One thing I love about Arduino is that it has evolved to become a whole ecosystem with niche hardware for specific needs such as wearables, very small form factors, projects with a larger number of inputs/outputs, kids, DIYers, wireless communication, etc.
+
+
 Anatomy Lesson- get a picture of the Arduino
 - USB
 - Power jack
