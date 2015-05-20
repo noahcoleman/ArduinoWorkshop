@@ -47,9 +47,11 @@ We'll talk about each of these items in turn.
 `void setup()`
 - This is where we put code to set up our sketch.
 - This code only runs once when the program begins.
+
 `void loop()`
 - This code runs over and over again as long as the Arduino has power.
 - Usually, this is where we put most of our code.
+
 ###Lets make it do something!
 ####Blink sketch
 This is the default sketch that comes loaded on Arduinos.  If you pull your Arduino out of the box and give it power, you will see an LED blink for 1 second on, one second off.
