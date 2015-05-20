@@ -80,11 +80,10 @@ void loop() {
   delay(1000);               // wait for a second
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);               // wait for a second
-  // By changing the length of the delays, both on and off, we change the LED's blink rate.
 }
 ```
+By changing the length of the delays, both on and off, we change the LED's blink rate.
 
-We can change the code to change the rate of blinking.
 ####More fun sketches
 - Turn on LED with a button
 - Turn your Arduino into K.I.T.T. from Knight Rider
