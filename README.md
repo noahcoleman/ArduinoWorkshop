@@ -80,6 +80,7 @@ void loop() {
   delay(1000);               // wait for a second
   digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);               // wait for a second
+  // By changing the length of the delays, both on and off, we change the LED's blink rate.
 }
 ```
 
