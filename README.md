@@ -32,10 +32,12 @@ As I said, Arduino is a great way to add physical inputs and outputs to your cod
 ###A Discussion of Digital vs. Analog
 Inputs as well as outputs are divided into two broad classes: *digital* and *analog*.  Digital simply means that the signal is either **on** or **off**.  That's it.  No middle ground, no questions asked.  Examples of digital inputs include buttons, electrical connections, and motion sensors.  Outputs could be turning a light on or off (more on that later), playing or stopping a sound, etc.
 Analog signals, on the other hand, represent a **range** of values along a scale.  Analog inputs could be a knob or slider, a light sensor, or a distance sensor.  Outputs could be the *dimming* of a light, volume of a sound, or speed of a motor.  
-Some sensors are more complicated than being simply digital or analog, but these are two very broad categories that are useful for describing innumberable situations.  
+Some sensors are more complicated than being simply digital or analog, but these are two very broad categories that are useful for describing innumberable situations.
 
+##Shields
+Manufacturers have created add-on boards called *shields* that extend Arduino's capabilities for a specific purpose.  Often, you can do without the shield, but often it is much more convenient and practical to use a shield, especially if you don't have the electronics experience to build what you need from scratch.  There are motor shields, SD card shields, ethernet shields, and LED matrix shields, just to name a few.
 
-Intro to Arduino IDE and programming
+##Intro to Arduino IDE and programming
 - Run, Upload, Serial Monitor buttons
 - What is a sketch?
 - void setup()
