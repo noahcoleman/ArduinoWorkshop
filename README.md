@@ -41,6 +41,7 @@ Manufacturers have created add-on boards called *shields* that extend Arduino's 
 - Run, Upload, Serial Monitor buttons
 To program the microcontroller, we need to write some code and upload it to the chip.  We do this with the Arduino IDE (Integrated Development Environment) on our computer.  When we open up the Arduino IDE, we will see a window similar to this:
 ![alt text][arduinoIDE]
+
 We'll talk about each of these items in turn.
 
 `void setup()`
