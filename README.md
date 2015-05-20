@@ -61,6 +61,7 @@ We can change the code to change the rate of blinking.
 - Turn your Arduino into K.I.T.T. from Knight Rider
 - Fade an LED on and off with code
 - Fade an LED with a potentiometer
+- Change the color of an RGB LED
 - Move a servo with a potentiometer
 - Use a digital input to control some aspect of code
 - Use an analog input to control some aspect of code
@@ -74,11 +75,13 @@ We can change the code to change the rate of blinking.
 
 [Arduino Playground][3], a wiki of user-contributed tutorials, projects, and how-tos!
 
+[Adafruit's Learn Arduino site.][4] Chock full of helpful, well illustrated tutorials.
+
 
 [1]: http://www.arduino.cc/
 [2]: http://www.arduino.cc/en/Tutorial/HomePage
 [3]: http://playground.arduino.cc/
-
+[4]: https://learn.adafruit.com/category/learn-arduino
 [ecosystem]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/Arduino-Boards.jpg "Arduino Ecosystem"
 [unoAnatomy]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/UnoMarkup.jpg "Anatomy of the Arduino Uno R3"
 [arduinoIDE]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/arduinoIDE.jpg "Arduino IDE"
