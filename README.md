@@ -35,21 +35,34 @@ Analog signals, on the other hand, represent a **range** of values along a scale
 Some sensors are more complicated than being simply digital or analog, but these are two very broad categories that are useful for describing innumberable situations.
 
 ##Shields
-Manufacturers have created add-on boards called *shields* that extend Arduino's capabilities for a specific purpose.  Often, you can do without the shield, but often it is much more convenient and practical to use a shield, especially if you don't have the electronics experience to build what you need from scratch.  There are motor shields, SD card shields, ethernet shields, and LED matrix shields, just to name a few.
+Manufacturers have created add-on boards called *shields* that extend Arduino's capabilities for a specific purpose.  You can do without the shield, but often it is much more convenient and practical to use a shield, especially if you don't have the electronics experience to build what you need from scratch.  There are motor shields, SD card shields, ethernet shields, and LED matrix shields, just to name a few.
 
 ##Intro to Arduino IDE and programming
 - Run, Upload, Serial Monitor buttons
-- What is a sketch?
-- void setup()
-- runs once when program begins
-- void loop()
-- runs over and over again as long as it has power
-- Uploading a sketch
-Lets make it do something!
-- Blink sketch- light up an led
-- Fade an led
-- Use a digital input (button) to control some aspect of code
-- Use an analog input (pot) to control some aspect of code
+To program the microcontroller, we need to write some code and upload it to the chip.  We do this with the Arduino IDE (Integrated Development Environment) on our computer.  When we open up the Arduino IDE, we will see a window similar to this:
+![alt text][arduinoIDE]
+We'll talk about each of these items in turn.
+
+`void setup()`
+- This is where we put code to set up our sketch.
+- This code only runs once when the program begins.
+`void loop()`
+- This code runs over and over again as long as the Arduino has power.
+- Usually, this is where we put most of our code.
+###Lets make it do something!
+####Blink sketch
+This is the default sketch that comes loaded on Arduinos.  If you pull your Arduino out of the box and give it power, you will see an LED blink for 1 second on, one second off.
+We can change the code to change the rate of blinking.
+####More fun sketches
+- Turn on LED with a button
+- Turn your Arduino into K.I.T.T. from Knight Rider
+- Fade an LED on and off with code
+- Fade an LED with a potentiometer
+- Move a servo with a potentiometer
+- Use a digital input to control some aspect of code
+- Use an analog input to control some aspect of code
+- Control something on your Arduino from your computer using serial communication
+- Control something on your computer from your Arduino using serial communication
 
 ## Links
 [Official Arduino website.][1]
@@ -65,4 +78,4 @@ Lets make it do something!
 
 [ecosystem]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/Arduino-Boards.jpg "Arduino Ecosystem"
 [unoAnatomy]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/UnoMarkup.jpg "Anatomy of the Arduino Uno R3"
-
+[arduinoIDE]: https://github.com/noahcoleman/ArduinoWorkshop/blob/master/assets/img/arduinoIDE.jpg "Arduino IDE"
